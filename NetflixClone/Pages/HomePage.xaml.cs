@@ -15,30 +15,45 @@ namespace NetflixClone.Pages
         public HomePage()
         {
             NavigationPage.SetHasBackButton(this, false);
-        
+            NavigationPage.SetHasNavigationBar(this, false);
+
             InitializeComponent();
 
             var moviesPageObj = new NavigationPage(new MoviesPage())
             {
                 Title = "Movies",
-                Icon = "movis.png"
+                Icon = "movis.png",
+                BarBackgroundColor = Color.Red,
+                BarTextColor = Color.White
+     
               
             };
             var searchPageObj = new NavigationPage(new SearchPage())
             {
                 Title = "Search",
-                Icon = "search.png"
+                Icon = "search.png",
+                 BarBackgroundColor = Color.Red,
+                BarTextColor = Color.White
+
             };
 
             var listPageObj = new NavigationPage(new MyListPage())
             {
                 Title = "My List",
-                Icon = "list.png"
+                Icon = "list.png",
+                BarBackgroundColor = Color.Red,
+                BarTextColor = Color.White
+
+
             };
             var profilePageObj = new NavigationPage(new MyProfilePage())
             {
                 Title = "My Profile",
-                Icon = "profile.png"
+                Icon = "profile.png",
+                BarBackgroundColor = Color.Red,
+                BarTextColor = Color.White
+
+
             };
             Children.Add(moviesPageObj);
             Children.Add(searchPageObj);

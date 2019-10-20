@@ -9,7 +9,7 @@ namespace NetflixClone.Pages
         public SearchPage()
         {
             InitializeComponent();
-            NavigationPage.SetHasNavigationBar(this, false);
+            NavigationPage.SetHasNavigationBar(this, true);
 
         }
     }

@@ -9,7 +9,7 @@ namespace NetflixClone.Pages
         public MyProfilePage()
         {
             InitializeComponent();
-            NavigationPage.SetHasNavigationBar(this, false);
+            NavigationPage.SetHasNavigationBar(this, true);
 
         }
     }
