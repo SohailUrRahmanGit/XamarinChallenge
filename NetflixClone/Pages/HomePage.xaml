@@ -1,0 +1,8 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<forms:TabbedPage xmlns="http://xamarin.com/schemas/2014/forms" xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" xmlns:forms="http://xamarin.com/schemas/2014/forms" x:Class="NetflixClone.Pages.HomePage">
+    <!--Pages can be added as references or inline-->
+    <ContentPage Title="Movies" IconImageSource="movis.png" />
+    <ContentPage Title="Search" IconImageSource="search.png" />
+    <ContentPage Title="My List" IconImageSource="list.png" />
+    <ContentPage Title="My Profile" IconImageSource="profile.png" />
+</forms:TabbedPage>

@@ -130,4 +130,10 @@
       <Name>NetflixClone</Name>
     </ProjectReference>
   </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\movis.png" />
+    <BundleResource Include="Resources\search.png" />
+    <BundleResource Include="Resources\list.png" />
+    <BundleResource Include="Resources\profile.png" />
+  </ItemGroup>
 </Project>
